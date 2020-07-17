@@ -1,6 +1,6 @@
 {
   "name": "one-puyo",
-  "version": "1.0.0",
+  "version": "1.0.3",
   "description": "Simple NazoPuyo(puyo puzzle) available in CUI",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -30,5 +30,8 @@
   "bugs": {
     "url": "https://github.com/gogutan/one-puyo/issues"
   },
-  "homepage": "https://github.com/gogutan/one-puyo#readme"
+  "homepage": "https://github.com/gogutan/one-puyo#readme",
+  "dependencies": {
+    "minimist": "^1.2.5"
+  }
 }
