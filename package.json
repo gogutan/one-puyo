@@ -2,7 +2,6 @@
   "name": "one-puyo",
   "version": "1.0.0",
   "description": "Simple NazoPuyo(puyo puzzle) available in CUI",
-  "main": "one-puyo.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -25,6 +24,9 @@
   ],
   "author": "gogutan",
   "license": "MIT",
+  "bin": {
+    "one-puyo": "./one-puyo.js"
+  },
   "bugs": {
     "url": "https://github.com/gogutan/one-puyo/issues"
   },
