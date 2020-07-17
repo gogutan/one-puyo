@@ -1,4 +1,4 @@
-const puzzleGenerator = require('./puzzle_generator.js')
+const puzzleGenerator = require('./puzzle-generator.js')
 const field = require('./field.js')
 const timer = require('./timer.js')
 const fs = require('fs')
