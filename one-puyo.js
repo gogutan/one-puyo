@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 const puzzleGenerator = require('./puzzle-generator.js')
 const field = require('./field.js')
 const timer = require('./timer.js')
