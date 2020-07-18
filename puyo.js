@@ -1,7 +1,14 @@
+const color = col => str => `\u001b[${col}m${str}\u001b[0m`
+const colors = {
+  red: color('31'),
+  green: color('32'),
+  blue: color('34'),
+  magenta: color('35')
+}
 const puyoTypes =
   process.platform === 'darwin'
     ? ['　', '🦄', '🐢', '🐬', '🐱']
-    : ['　', '●', '▲', '■', '★']
+    : ['　', colors.red('●'), colors.green('▲'), colors.blue('■'), colors.magenta('★')]
 
 class Puyo {
   static isValidPuyoType (type) {
