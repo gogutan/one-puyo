@@ -1,4 +1,4 @@
-const puyoTypes = ['　', '🦄', '🐢', '🐬', '🐱']
+const puyoTypes = process.platform === 'darwin' ? ['　', '🦄', '🐢', '🐬', '🐱'] : ['　', '●', '▲', '■', '★']
 
 class Puyo {
   static isValidPuyoType (type) {

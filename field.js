@@ -5,6 +5,7 @@ const clearRequirement = 4
 const defaultIntervalMsec = 500
 const height = 10
 const width = 6
+const footer = process.platform === 'darwin' ? '1️⃣ 2️⃣ 3️⃣ 4️⃣ 5️⃣ 6️⃣ ' : '１２３４５６'
 
 const sleep = (msec) => {
   return new Promise(resolve => setTimeout(resolve, msec))
@@ -31,7 +32,7 @@ class Field {
   }
 
   outputFooter () {
-    console.log('1️⃣ 2️⃣ 3️⃣ 4️⃣ 5️⃣ 6️⃣ ')
+    console.log(footer)
   }
 
   outputAll () {

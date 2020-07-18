@@ -1,5 +1,4 @@
 #!/usr/bin/env node
-
 const puzzleGenerator = require('./puzzle-generator.js')
 const field = require('./field.js')
 const timer = require('./timer.js')
@@ -11,7 +10,7 @@ const intervalMsec = { e: 600, n: 500, h: 400 }
 const speedrunPuzzleCount = 5
 
 const getRecordPath = (difficulty) => {
-  return `./${difficulty}_record.txt`
+  return `${__dirname}/${difficultyNames[difficulty]}_record.txt`
 }
 
 const isRecordExisting = (difficulty) => {
