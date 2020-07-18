@@ -1,6 +1,10 @@
 const puyo = require('./puyo.js')
 const field = require('./field.js')
-const minChainCount = { e: 3, n: 4, h: 5 }
+const minChainCount = {
+  e: 3,
+  n: 4,
+  h: 5
+}
 
 const shuffle = (array) => {
   for (let i = array.length; i > 1; i--) {

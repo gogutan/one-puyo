@@ -1,12 +1,21 @@
 #!/usr/bin/env node
+
 const puzzleGenerator = require('./puzzle-generator.js')
 const field = require('./field.js')
 const timer = require('./timer.js')
 const fs = require('fs')
 const difficultyOpts = ['e', 'n', 'h']
 const defaultDifficulty = difficultyOpts[1]
-const difficultyNames = { e: 'Easy', n: 'Normal', h: 'Hard' }
-const intervalMsec = { e: 600, n: 500, h: 400 }
+const difficultyNames = {
+  e: 'Easy',
+  n: 'Normal',
+  h: 'Hard'
+}
+const intervalMsec = {
+  e: 600,
+  n: 500,
+  h: 400
+}
 const speedrunPuzzleCount = 5
 
 const getRecordPath = (difficulty) => {
