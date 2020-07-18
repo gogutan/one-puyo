@@ -39,3 +39,9 @@ Connect four or more puyos(🦄🐢🐬🐱) of the same color to clear them.
 `-s` or `-t` Speedrun Mode(Solve five puzzles in a row! Compatible with setting difficulty level)
 
 ![speedrun](https://user-images.githubusercontent.com/50437473/87851275-2b496700-c932-11ea-911c-ccaa80db3144.gif)
+
+## Note
+
+Though emojis will be displayed only in macOS Terminal, it is still playable in other environments.
+
+![windows](https://user-images.githubusercontent.com/50437473/87854615-22ff2500-c94e-11ea-9025-8c85395188b4.png)
